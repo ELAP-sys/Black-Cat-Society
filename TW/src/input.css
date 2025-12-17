@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@utility bg-hero-image {
+    background-image: url('TWIMG/b2.jpg');
+}
+
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-display: swap;
+    src: url("/Font/Vazirmatn-Medium.woff2") format("woff2");
+}
+
+@theme{
+    --font-display: "vazir";
+}
