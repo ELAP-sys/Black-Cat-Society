@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
 
 
 @utility bg-hero-image {
@@ -9,7 +13,7 @@
     font-family: vazir;
     font-style: normal;
     font-display: swap;
-    src: url("/Font/Vazirmatn-Medium.woff2") format("woff2");
+    src: url('Font/Vazirmatn-Medium.woff2') format("woff2");
 }
 
 @theme{
