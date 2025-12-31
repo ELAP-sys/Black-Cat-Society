@@ -5,7 +5,7 @@
 @source "../node_modules/flowbite";
 
 
-@utility bg-hero-image {
+@utility bg-book-image {
     background-image: url('TWIMG/b2.jpg');
 }
 
