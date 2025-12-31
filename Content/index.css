@@ -331,12 +331,31 @@ a:hover {
         height: 380vh;
     }
 
+    #header-links {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #header-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
     main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-top: 150px;
+        margin-top: 80px;
     }
 
     .right-section {
@@ -352,6 +371,14 @@ a:hover {
         width: max-content;
     }
 
+    .table-box {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
     span {
         background: none;
         padding: 0;
@@ -360,5 +387,6 @@ a:hover {
 
     footer {
         flex-direction: column;
+        padding: 1rem;
     }
 }
