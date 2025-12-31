@@ -328,12 +328,17 @@ a:hover {
 
 @media(max-width:800px) {
     body {
-        height: 380vh;
+        width: max-content;
+        height: 350vh;
+    }
+
+    header {
+        max-width: max-content;
     }
 
     #header-links {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -352,8 +357,6 @@ a:hover {
 
     main {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 10px;
         margin-top: 80px;
     }
@@ -361,18 +364,11 @@ a:hover {
     .right-section {
         display: flex;
         flex-direction: column;
-        width: max-content;
-        justify-content: center;
-        align-items: center;
         gap: 2rem;
     }
 
     .left-section {
         width: max-content;
-    }
-
-    .table-box {
-        overflow-x: auto;
     }
 
     table {
@@ -388,5 +384,6 @@ a:hover {
     footer {
         flex-direction: column;
         padding: 1rem;
+        height: 40vh;
     }
 }
