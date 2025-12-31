@@ -327,8 +327,8 @@ a:hover {
 
 @media(max-width:800px) {
     body {
-        width: 15rem;
-        height: 310vh;
+        width: 10rem;
+        height: 330vh;
     }
 
     header {
