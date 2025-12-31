@@ -333,21 +333,21 @@ a:hover {
 
     #header-links {
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         padding: 1rem;
     }
 
     #header-logo {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     main {
