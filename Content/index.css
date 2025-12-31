@@ -333,6 +333,8 @@ a:hover {
 
     main {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
         margin-top: 150px;
     }
@@ -340,11 +342,20 @@ a:hover {
     .right-section {
         display: flex;
         flex-direction: column;
+        width: max-content;
+        justify-content: center;
+        align-items: center;
         gap: 2rem;
     }
 
     .left-section {
         width: max-content;
+    }
+
+    span {
+        background: none;
+        padding: 0;
+        border-radius: 0;
     }
 
     footer {
