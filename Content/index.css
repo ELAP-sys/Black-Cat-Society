@@ -328,12 +328,12 @@ a:hover {
 
 @media(max-width:800px) {
     body {
-        width: max-content;
+        width: 35rem;
         height: 350vh;
     }
 
     header {
-        width: 100%;
+        width: 22rem;
     }
 
     #header-links {
@@ -365,6 +365,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        width: 100;
     }
 
     .left-section {
@@ -373,6 +374,10 @@ a:hover {
 
     table {
         min-width: 600px;
+    }
+
+    .table-box {
+        overflow-x: auto;
     }
 
     span {
