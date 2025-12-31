@@ -5,7 +5,7 @@
 @source "../node_modules/flowbite";
 
 
-@utility bg-book-image {
+@utility bg-books-image {
     background-image: url('TWIMG/b2-min.jpg');
 }
 
@@ -16,6 +16,6 @@
     src: url('Font/Vazirmatn-Medium.woff2') format("woff2");
 }
 
-@theme {
+@theme{
     --font-display: "vazir";
 }

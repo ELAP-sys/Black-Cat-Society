@@ -46,7 +46,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
     color: white;
 }
 
@@ -328,12 +327,12 @@ a:hover {
 
 @media(max-width:800px) {
     body {
-        width: 35rem;
-        height: 350vh;
+        width: 15rem;
+        height: 310vh;
     }
 
     header {
-        width: 22rem;
+        width: 24rem;
     }
 
     #header-links {
@@ -369,14 +368,19 @@ a:hover {
     }
 
     .left-section {
-        width: max-content;
+        width: 25rem;
+        margin: 0;
+        margin-top: 2rem;
+        margin-right: 17rem;
     }
 
-    table {
-        min-width: 600px;
+    .olist-left-section-links {
+        justify-self: center;
     }
 
     .table-box {
+        width: 30rem;
+        margin-right: 17rem;
         overflow-x: auto;
     }
 
@@ -390,5 +394,6 @@ a:hover {
         flex-direction: column;
         padding: 1rem;
         height: 40vh;
+        width: 32rem;
     }
 }
