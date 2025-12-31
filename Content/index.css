@@ -340,6 +340,7 @@ a:hover {
     .right-section {
         display: flex;
         flex-direction: column;
+        gap: 2rem;
     }
 
     .left-section {
