@@ -333,7 +333,7 @@ a:hover {
     }
 
     header {
-        max-width: max-content;
+        width: 100%;
     }
 
     #header-links {
